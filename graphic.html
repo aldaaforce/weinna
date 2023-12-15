@@ -4,95 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weinna's graphic stuff</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="real.css" />
 </head>
 <body>
     <div class="fixed-sidebar">
-        <div class="sidebar-bkgd">
-            <img class="bkgd-photo" src="sidebar-bkgd.png" alt="bkgd-photo"/>
-        </div>
-        <div class="pfp-frame">
-            <img class="pfp" src="pfp.png" alt="pfp"/>
-        </div>
-        <a href="mailto: w2zheng@uwaterloo.ca"> 
-            <div class="white-button" style="left: 125px; top: 85%; ">
-                <p style="text-align: center">email</p>
+        <div class="container">
+            <img class="pfp" src="pfp.png" alt="profile picture">
+            <div class="header-container">
+                <div class="header-text">Weinna</div>
+                <span>/wānə/</span>
             </div>
-        </a>
-        <a href="https://www.linkedin.com/in/weinna-zheng/"> 
-            <div class="white-button" style="width: 100px; left: 245px; top: 85%;">
-                <p style="text-align: center">linkedin</p>
+            <div class="definition-container">
+                <span>a product & graphic designer studying design and cs at the University of Waterloo.</span>
             </div>
-        </a>
-        <a href="aboutme.html">
-            <div class="white-button-arrow">
-                <p style="margin-left: 20px; margin-top: 5px">more about me!</p>
-                <img src="arrow-down.svg" style="width: 24px; height: 24px; left: 180px; top: 10px; position: absolute; transform: rotate(270deg)">
+            <div class="definition-container" style="margin-top: 10%">
+                <a href="aboutme.html">
+                    <div class="white-button-arrow">
+                        <p>more about me!</p>
+                        <img class="arrow-right" src="arrow-down.svg">
+                    </div>
+                </a>
             </div>
-        </a>
-        <div class="desc">
-            <p style="text-align: center; color: white">a product & graphic designer studying design and cs at the University of Waterloo.</div>
+            <div class="definition-container" style="margin-top: 15%">
+                <span>Connect with me!</span>
+            </div>
+            <div class="header-container">
+                <a href="mailto:weinnazheng@hotmail.ca">
+                    <span class="white-button">email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/weinna-zheng/">
+                    <span class="white-button">linkedin</span>
+                </a>
+            </div>
+            <div class="definition-container" style="margin-top: 22%">
+                <a href="weinna_resume.pdf" target="_blank">
+                    <div class="white-button-arrow">
+                        <p>see my resume</p>
+                        <img class="arrow-right" src="arrow-down.svg">
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="container1">
-            <p style="text-align: center; color: white;">Connect with me!</p>
-        </div>
-        <div class="top">
-            <h1>Weinna</h1>
-            <p style="padding: 20px; color: white;"> /wānə/</p>
-        </div>
+
     </div>
-    <div class="scrollable-content" style="border-top: 22px solid #A3B0C5; border-bottom: 22px solid #A3B0C5;">
+    <div class="scrollable-content">
         <nav>
-            <h1 style="align-items: center ; justify-content: left; color:#37404E">Check out my designs!</h1>
-            <img src="arrow-down.svg" >
+            <div class="header-text">Check out my designs!</div>
             <ul class="nav-items">
                 <li>
                     <a href="index.html">Product</a>
                 </li>
                 <li style="background-color: #37404E; border-radius: 10px;">
-                    <a href="graphic.html" style="color: white;">Graphic</a>
+                    <a href="graphic.html" style="color: white">Graphic</a>
                 </li>
             </ul>
         </nav>
         <a href="uwblueprint.html">
-            <div class="card" style="background-color: #E4EEFF; border: 4px solid #37404E; margin-top: 175px;">
+            <div class="card-g">
                 <div class="image-section">
-                    <img src="bp-posts.png" style="margin-left: -30px; width: 510px; height: 447px;" alt="bp-posts">
+                    <img class="bp-posts" src="bp-posts.png" alt="bp posts">
                 </div>
                 <div class="text-section">
-                    <h1 style="margin-top: 50px; text-align: left; color: #37404E">UW Blueprint</h1>
-                    <p style="line-height: 25px; font-size: 16px;">May 2023 - Present</p>
-                    <p style="line-height: 25px; font-size: 16px;">Shaping the look of the Instagram page at UW Blueprint, a student club that builds tech for social good.</p>
+                    <div class="header-text" style="color:#37404E">UW Blueprint</div>
+                    <p>May 2023 - Present</p>
+                    <p>Shaping the look of the Instagram page at UW Blueprint, a student club that builds tech for social good.
+                    </p>
                     <div class="tag-section">
-                        <span class="tag-d">Club</span>
-                        <span class="tag-d">Social Media Posts</span>
-                        <span class="tag-d">Solo</span>
-                        <span class="tag-d">Figma</span>
-                        <span class="tag-d">Graphic Design</span>
+                        <span class="tag-g">Club</span>
+                        <span class="tag-g">Social Media Posts</span>
+                        <span class="tag-g">Solo</span>
+                        <span class="tag-g">Figma</span>
+                        <span class="tag-g">Graphic Design</span>
                     </div>
                 </div>
             </div>
         </a>
         <a href="uofthacks.html">
-            <div class="card" style="background-color: #E4EEFF; border: 4px solid #37404E;" >
-                <div class="image-section" style="float: right">
-                    <img src="uofth-posts.png" style="margin-left: -60px; width: 464px; height: 447px;" alt="uofthacks">
-                </div>
-                <div class="text-section" style="padding-left: 60px; padding-right: 30px; float: left;">
-                    <h1 style="color: #37404E; margin-top: 50px; text-align: left;">UofTHacks</h1>
-                    <p style="line-height: 25px; font-size: 16px;">May 2023 - Present</p>
-                    <p style="line-height: 25px; font-size: 16px;">Creating graphic assets and social media posts to promote UofTHacks 2024, a 3-day hackathon in Toronto.</p>
+            <div class="card-g">
+                <div class="text-section">
+                    <div class="header-text" style="color:#37404E">UofTHacks 11</div>
+                    <p>May 2023 - Present</p>
+                    <p>Creating graphic assets and social media posts to promote UofTHacks 11, a 3-day hackathon happening in Toronto.</p>
                     <div class="tag-section">
-                        <span class="tag-d">Club</span>
-                        <span class="tag-d">Social Media Posts</span>
-                        <span class="tag-d">Team</span>
-                        <span class="tag-d">Figma</span>
-                        <span class="tag-d">Graphic Design</span>
+                        <span class="tag-g">Club</span>
+                        <span class="tag-g">Social Media Posts</span>
+                        <span class="tag-g">Team</span>
+                        <span class="tag-g">Figma</span>
+                        <span class="tag-g">Graphic Design</span>
                     </div>
                 </div>
+                <div class="image-section" style="justify-content: left;">
+                    <img class="bp-posts" src="uofth-posts.png" alt="uofth-posts">
+                </div>
+
             </div>
         </a>
+
+    
     </div>
-    <script src="main.js"></script>
+
 </body>
 </html>
