@@ -219,7 +219,7 @@
     display: inline-block;
     color: #5980C4;
     padding: 0.5vh 2.3vh;
-    border-radius: 10px;
+    border-radius: .5em;
     background-color: white;
     margin: 0.5vh 0;
   }
