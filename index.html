@@ -4,47 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weinna's product design stuff</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="real.css" />
 </head>
 <body>
     <div class="fixed-sidebar">
-        <div class="sidebar-bkgd">
-            <img class="bkgd-photo" src="sidebar-bkgd.png" alt="bkgd-photo"/>
-        </div>
-        <div class="pfp-frame">
-            <img class="pfp" src="pfp.png" alt="pfp" />
-        </div>
-        <a href="mailto: w2zheng@uwaterloo.ca"> 
-            <div class="white-button" style="left: 125px; top: 0.875em; ">
-                <p style="text-align: center">email</p>
+        <div class="container">
+            <img class="pfp" src="pfp.png" alt="profile picture">
+            <div class="header-container">
+                <div class="header-text">Weinna</div>
+                <span>/wānə/</span>
             </div>
-        </a>
-        <a href="https://www.linkedin.com/in/weinna-zheng/"> 
-            <div class="white-button" style="width: 100px; left: 245px; top: 85%;">
-                <p style="text-align: center">linkedin</p>
+            <div class="definition-container">
+                <span>a product & graphic designer studying design and cs at the University of Waterloo.</span>
             </div>
-        </a>
-        <a href="aboutme.html">
-            <div class="white-button-arrow">
-                <p style="margin-left: 20px; margin-top: 5px">more about me!</p>
-                <img src="arrow-down.svg" style="width: 24px; height: 24px; left: 180px; top: 10px; position: absolute; transform: rotate(270deg)">
+            <div class="definition-container" style="margin-top: 10%">
+                <a href="aboutme.html">
+                    <div class="white-button-arrow">
+                        <p>more about me!</p>
+                        <img class="arrow-right" src="arrow-down.svg">
+                    </div>
+                </a>
             </div>
-        </a>
-        <div class="desc">
-            <p style="text-align: center; color: white">a product & graphic designer studying design and cs at the University of Waterloo.</div>
+            <div class="definition-container" style="margin-top: 15%">
+                <span>Connect with me!</span>
+            </div>
+            <div class="header-container">
+                <a href="mailto:weinnazheng@hotmail.ca">
+                    <span class="white-button">email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/weinna-zheng/">
+                    <span class="white-button">linkedin</span>
+                </a>
+            </div>
+            <div class="definition-container" style="margin-top: 22%">
+                <a href="weinna_resume.pdf" target="_blank">
+                    <div class="white-button-arrow" style="background-color: #cddfff;">
+                        <p>see my resume</p>
+                        <img class="arrow-right" src="arrow-down.svg">
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="container1">
-            <p style="text-align: center; color: white;">Connect with me!</p>
-        </div>
-        <div class="top">
-            <h1>Weinna</h1>
-            <p style="padding: 20px; color: white;"> /wānə/</p>
-        </div>
+
     </div>
     <div class="scrollable-content">
         <nav>
-            <h1 style="align-items: center ; justify-content: left; color:#37404E">Check out my designs!</h1>
-            <img src="arrow-down.svg" >
+            <div class="header-text">Check out my designs!</div>
             <ul class="nav-items">
                 <li style="background-color: #37404E; border-radius: 10px;">
                     <a href="index.html" style="color: white;">Product</a>
@@ -55,15 +60,15 @@
             </ul>
         </nav>
         <a href="projectpals.html">
-            <div class="card" style="margin-top: 175px;">
+            <div class="card">
                 <div class="image-section">
-                    <img src="projectpals_screen.png" style="margin-top: 37px; width: 457px; height: 347px;">
+                    <img class="projectpals" src="projectpals_screen.png" alt="project pals">
                 </div>
                 <div class="text-section">
-                    <h1 style="margin-top: 50px; text-align: left; color: #B9D1FA">Project Pals</h1>
-                    <p style="line-height: 25px; color: white; font-size: 16px;">Sept 2023 | Ctrl + y designathon</p>
-                    <p style="line-height: 25px; color: white; font-size: 16px;">Best Pitch Award</p>
-                    <p style="line-height: 25px; color: white; font-size: 16px;">A website to generate ideas and join teams for side projects!</p>
+                    <div class="header-text">ProjectPals</div>
+                    <span>Sept 2023 | Ctrl + y designathon</span>
+                    <span>Best Pitch Award</span>
+                    <span>A website to generate ideas and join teams for side projects!</span>
                     <div class="tag-section">
                         <span class="tag">Designathon</span>
                         <span class="tag">Website Prototype</span>
@@ -76,15 +81,10 @@
         </a>
         <a href="seniorsavory.html">
             <div class="card">
-                <div class="image-section" style="float: right">
-                    <img src="seniorsavory.png" style="margin-left: -40px; margin-top: 80px; width: 485px; height: 301px;" alt="senior-savory">
-                </div>
-                <div class="text-section" style="margin-top: 30px; padding-left: 60px; padding-right: 30px; float: left;">
-                    <h1 style="line-height: 40px; margin-top: 20px; text-align: left; color: #B9D1FA">Senior Savory</h1>
-                    <p style="line-height: 25px; color: white; font-size: 16px;">Nov 2023 | GBDA Project</p>
-                    <p style="line-height: 25px; color: white; font-size: 16px;">A food delivery app for the elderly.</p>
-                    <br>
-                    <br>
+                <div class="text-section">
+                    <div class="header-text">Senior Savory</div>
+                    <span>Nov 2023 | GBDA Project</span>
+                    <span>A food delivery app for the elderly.</span>
                     <div class="tag-section">
                         <span class="tag">School Project</span>
                         <span class="tag">Mobile Prototype</span>
@@ -93,9 +93,15 @@
                         <span class="tag">UX/UI Design</span>
                     </div>
                 </div>
+                <div class="image-section">
+                    <img class="seniorsavory" src="seniorsavory.png" alt="senior savory">
+                </div>
+
             </div>
         </a>
+
+    
     </div>
-    <script src="main.js"></script>
+
 </body>
 </html>
