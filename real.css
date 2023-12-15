@@ -20,7 +20,7 @@
     aspect-ratio: 496 / 1024;
     width: auto;
     height: 100vh;
-    background-image: url(images/sidebar-bkgd.png);
+    background-image: url(sidebar-bkgd.png);
     background-color: #37404E;
     position: fixed;
     /*
